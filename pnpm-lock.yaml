@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@nestjs/common':
     specifier: 9.4.0
@@ -14,7 +18,7 @@ dependencies:
     specifier: 4.13.0
     version: 4.13.0(prisma@4.13.0)
   discord.js:
-    specifier: 14.10.2
+    specifier: ^14.10.2
     version: 14.10.2
   dotenv:
     specifier: 16.0.3
